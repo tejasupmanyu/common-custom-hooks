@@ -1,7 +1,7 @@
 {
   "name": "common-custom-hooks",
-  "version": "0.0.1",
-  "description": "Common custom React hooks",
+  "version": "0.1.0",
+  "description": "custom-common-hooks is a custom react hooks library, focusing on providing simple and performant custom hooks for common use cases.",
   "keywords": [
     "react-hooks",
     "hooks",

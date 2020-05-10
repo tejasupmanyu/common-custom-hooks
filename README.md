@@ -1,6 +1,17 @@
 ## Introduction
 
-custom-common-hooks is a custom react hooks library, focusing on providing simple and performant custom hooks for common use cases.
+custom-common-hooks ⚛️ is a custom react hooks library, focusing on providing simple and performant custom hooks for common use cases.
+
+Gives the following useful custom hooks -
+
+- usePrevious
+- useIsMobile
+- useOnChange
+- usePrevious
+- useWindowSize
+- useKeypress
+
+...and more in upcoming releases.
 
 ## Usage
 
@@ -12,7 +23,10 @@ or with npm:
 
 `npm install custom-common-hooks`
 
-## Roadmap
+## Issues & Help
+
+- Raise an issue if you find one.
+- PRs and feture requests welcome!
 
 ## License
 
