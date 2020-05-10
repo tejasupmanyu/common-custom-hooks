@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const useWindowSize = () => {
+export const useWindowSize = () => {
   const isClient = typeof window === "object";
 
   function getSize() {
@@ -23,5 +23,3 @@ const useWindowSize = () => {
 
   return windowSize;
 };
-
-export default useWindowSize;

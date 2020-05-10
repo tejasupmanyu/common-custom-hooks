@@ -1,15 +1,15 @@
 import * as React from "react";
-import usePrevious from "../usePrevious";
+import { usePrevious } from "../usePrevious";
 
 function isEqual(a: any, b: any) {
   return a === b;
 }
 
-export default function useChange(
+export const useChange = (
   value: any,
   callback: Function,
   comparator = isEqual
-) {
+) => {
   const previous = usePrevious(value);
 
   React.useEffect(() => {
@@ -28,4 +28,4 @@ export default function useChange(
       }
     }
   }, [value, previous, comparator, callback]);
-}
+};

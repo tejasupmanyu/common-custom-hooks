@@ -1,4 +1,4 @@
-import useWindowSize from "../useWindowSize";
+import { useWindowSize } from "../useWindowSize";
 
 /**
  * useIsMobile returns if the current screen layout is mobile.

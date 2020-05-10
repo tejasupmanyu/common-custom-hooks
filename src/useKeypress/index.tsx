@@ -4,7 +4,7 @@ import * as React from "react";
  * returns if the target key is pressed or not.
  * @param targetKey the key for which press is to be registered.
  */
-const useKeyPress = (targetKey: string) => {
+export const useKeyPress = (targetKey: string) => {
   // State for keeping track of whether key is pressed
   const [keyPressed, setKeyPressed] = React.useState(false);
 
@@ -37,5 +37,3 @@ const useKeyPress = (targetKey: string) => {
 
   return keyPressed;
 };
-
-export default useKeyPress;

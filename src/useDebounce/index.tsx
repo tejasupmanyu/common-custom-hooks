@@ -5,7 +5,7 @@ import * as React from "react";
  * @param value value which needs to be debounced
  * @param delay delay in changing the value
  */
-const useDebounce = (value: any, delay: number) => {
+export const useDebounce = (value: any, delay: number) => {
   // State and setters for debounced value
   const [debouncedValue, setDebouncedValue] = React.useState(value);
 
@@ -25,5 +25,3 @@ const useDebounce = (value: any, delay: number) => {
 
   return debouncedValue;
 };
-
-export default useDebounce;
