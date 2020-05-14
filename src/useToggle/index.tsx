@@ -6,7 +6,7 @@ import * as React from "react";
 export const useToggle = (initialValue?: boolean) => {
   const [value, setValue] = React.useState(!!initialValue);
 
-  const toggle = (target?: boolean) => {
+  const toggle: (target?: boolean) => void = (target?: boolean) => {
     if (target !== undefined) {
       setValue(target);
     } else {
