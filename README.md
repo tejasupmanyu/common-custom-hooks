@@ -10,6 +10,7 @@ Gives the following useful custom hooks -
 - usePrevious
 - useWindowSize
 - useKeypress
+- useToggle
 
 ...and more in upcoming releases.
 
