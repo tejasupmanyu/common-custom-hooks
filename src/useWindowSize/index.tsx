@@ -1,5 +1,8 @@
 import * as React from "react";
 
+/**
+ * returns current size of window (width, height). Changes dynamically as the window is resized.
+ */
 export const useWindowSize = () => {
   const isClient = typeof window === "object";
 

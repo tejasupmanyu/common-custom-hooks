@@ -6,3 +6,4 @@ export * from "./usePrevious";
 export * from "./useWindowSize";
 export * from "./useToggle";
 export * from "./useInterval";
+export * from "./usePageVisible";
