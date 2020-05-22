@@ -5,3 +5,4 @@ export * from "./useOnChange";
 export * from "./usePrevious";
 export * from "./useWindowSize";
 export * from "./useToggle";
+export * from "./useInterval";
